@@ -21,5 +21,13 @@
   },
   "devDependencies": {
     "prettier": "^3.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuabaker/lists-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuabaker/lists-css/issues"
+  },
+  "homepage": "https://github.com/joshuabaker/lists-css#readme"
 }
