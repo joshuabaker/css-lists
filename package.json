@@ -1,6 +1,6 @@
 {
   "name": "@joshuabaker/lists-css",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Custom CSS styles for bulleted and numbered lists",
   "main": "index.css",
   "scripts": {
