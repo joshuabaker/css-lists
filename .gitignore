@@ -1,0 +1,43 @@
+# Dependency directories
+node_modules/
+
+# PNPM store directory
+.pnpm-store/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output
+dist/
+build/
+
+# Test coverage output
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Optional: Ignore all dot files and directories
+# .*
+
+# But don't ignore .gitignore (this file)
+!.gitignore

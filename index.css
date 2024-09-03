@@ -1,0 +1,32 @@
+.bulleted-list,
+.numbered-list {
+  display: grid;
+  grid-template-columns: [marker] minmax(
+      var(--list-marker-width, 2ch),
+      max-content
+    );
+  counter-reset: list;
+  padding-inline-start: 0;
+}
+
+.bulleted-list > li,
+.numbered-list > li {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: span 2;
+  counter-increment: list;
+}
+
+.bulleted-list > li:before,
+.numbered-list > li:before {
+  display: block;
+  grid-column: marker;
+}
+
+.bulleted-list > li:before {
+  content: "—";
+}
+
+.numbered-list > li:before {
+  content: counter(list) ".";
+}

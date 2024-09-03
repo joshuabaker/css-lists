@@ -1,0 +1,25 @@
+{
+  "name": "@joshuabaker/lists-css",
+  "version": "0.1.0",
+  "description": "Custom CSS styles for bulleted and numbered lists",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "pnpm run format:check"
+  },
+  "keywords": [
+    "css",
+    "lists",
+    "styling"
+  ],
+  "author": "Joshua Baker",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
